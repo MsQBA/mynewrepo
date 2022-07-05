@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+
+  name:  mynewrepo
+  description:
+
+  labels:
+    rapid7.com/Cost_Product: Platform
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    rapid7.com/service-discovery:  Platform
+
+  tags:
+    -  Platform
+    -  
+  links:
+    - url:
+      title:
+      icon:
+spec:
+  type:
+  lifecycle:
+  owner: sirwin@rapid7.com
+  Point of Contact: psimms@rapid7.com
+  system:
+  slack:
+  Repo Impacted:  
