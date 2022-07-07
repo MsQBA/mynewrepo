@@ -2,14 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
 
-  name:  mynewrepo
+  name:mynewrepo
   description:
 
   labels:
-    rapid7.com/Cost_Product: Platform
+    rapid7.com/Cost_Product:Platform
   annotations:
     backstage.io/techdocs-ref: dir:.
-    rapid7.com/service-discovery:  Platform
+    rapid7.com/service-discovery:Platform
 
   tags:
     -  Platform
